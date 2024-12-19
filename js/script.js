@@ -1,4 +1,3 @@
-console.log("script.js loaded");
 let charactersClass = document.querySelector(".characters");
 
 async function getData() {

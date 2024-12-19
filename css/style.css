@@ -208,6 +208,9 @@ figcaption{
   justify-content: center;
   align-items: center;
 }
+.burger-menu-open {
+  display: none;
+}
 
 @media screen and (max-width: 425px) {
   header {
@@ -229,6 +232,42 @@ header ul {
   .houses {
     flex-direction: column;
     align-content: space-around;
+  }
+  .perso {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .perso__right {
+    justify-content: center;
+  }
+  .page_perso figure{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /*
+  .burger-menu {
+    display: block;
+  }
+  main {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  header .header__left {
+    display: none;
+  }
+  header .header__right {
+    display: none;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  */
+  .header ol {
+    display: none;
   }
 }
 
